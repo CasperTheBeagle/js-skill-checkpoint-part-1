@@ -21,8 +21,11 @@ inv[1].quantity=200;
 
 // loop เพื่อเทียบ หาค่า min ของจำนวนผลไม้
 for (let i = 0; i < inv.length; i++) {
+  textResult="";
   if (minQuantity > inv[i].quantity) { // ถ้าค่าที่นำมาเทียบมีค่ามากกว่า
     minQuantity = inv[i].quantity; // ให้เก็บเป็น minQuantity (ค่าที่ตำที่สุดตัวใหม่)
-    console.log(`สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${inv[i].name} ซึ่งมี ${minQuantity} ชิ้น`);
+    textResult=`สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${inv[i].name} ซึ่งมี ${minQuantity} ชิ้น`;
+    // console.log(`สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${inv[i].name} ซึ่งมี ${minQuantity} ชิ้น`);
   }
+  console.log(textResult);
 }

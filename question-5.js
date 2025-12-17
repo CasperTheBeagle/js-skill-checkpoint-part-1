@@ -19,3 +19,11 @@ const products = [
 
 const promotionCode = "";
 // เริ่มเขียนโค้ดตรงนี้
+
+//ให้เขียนฟังก์ชันชื่อ calculateTotalPrice ที่รับ products และ promotionCode เป็น Argument  
+function calculateTotalPrice(products,promotionCode){
+  let sumProductPrice;
+  let salePercentStatus ={"SALE20","SALE50"};
+
+  return 0;
+}
