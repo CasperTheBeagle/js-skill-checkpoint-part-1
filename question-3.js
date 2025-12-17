@@ -1,16 +1,13 @@
 // Question #3
 let userPassword = "";
+userPassword = "ssswnalWadqQ";// "Strong"
+// userPassword = "TechUp";// "Medium"
+// userPassword = "abcde";//  "Weak"
+
 
 // เริ่มเขียนโค้ดตรงนี้
-console.log(checkPasswordStrength(userPassword));
+console.log(checkPasswordStrength(userPassword)); 
 
-// Ex for ChecK Input Out Put
-// userPassword = "ssswnalWadqQ"
-// console.log(checkPasswordStrength(userPassword)); // "Strong"
-// userPassword = "TechUp"
-// console.log(checkPasswordStrength(userPassword)); // "Medium"
-// userPassword = "abcde"
-// console.log(checkPasswordStrength(userPassword)); // "Weak"
 
 // - ให้เขียนฟังก์ชัน `checkPasswordStrength` ซึ่งรับ `userPassword` เป็น Argument และ Return ผลลัพธ์ออกมาเป็น String ตามเงื่อนไขต่อไปนี้
 function checkPasswordStrength(password){
