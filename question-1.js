@@ -24,7 +24,7 @@ console.log(myTodo);
 
 // 5) ให้นำข้อมูลใน Object สุดท้ายมาแสดงบนหน้าจอ Console ในรูปแบบ
 // "To-do id: <ค่าของ id>, <ค่าของ todo>" (ห้าม Hard-Code ค่าเข้าไปใน String โดยตรง)
-const lastMyTodo = myTodo[myTodo.length-1];
+let lastMyTodo = myTodo[myTodo.length-1];
 console.log(`To-do id: ${lastMyTodo.id}, ${lastMyTodo.todo}`);
 
 
