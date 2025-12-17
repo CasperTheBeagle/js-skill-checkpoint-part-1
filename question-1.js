@@ -12,7 +12,7 @@ myTodo.push({id:5,todo:"Walk the dog"});
 
 
 // 2) แก้ไขชื่อ Object ที่มี id เป็น 4 เพื่อให้ todo ของ Object นั้นมีค่าเป็น "Go to the gym"
-myTodo[3].todo="Go to the Gym";
+myTodo[3].todo="Go to the gym";
 
 // 3) ลบ Object สุดท้ายใน Array ออก
 // console.log(myTodo);

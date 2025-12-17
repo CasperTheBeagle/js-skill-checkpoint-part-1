@@ -31,10 +31,10 @@ function calculateTotalPrice(productsInCart, discountCode) {
   for (let i = 0; i < productsInCart.length; i++) {
     sumProductPrice += productsInCart[i].price * productsInCart[i].quantity;
   }
-  if (promotionCode === "SALE20") { // "SALE20"
+  if (discountCode === "SALE20") { // "SALE20"
     sumProductPrice = sumProductPrice * ((100-20)/100); // ลด 20% จากมูลค่ารวมของสินค้าในตะกร้า
 
-  } else if (promotionCode === "SALE50") { // "SALE50"
+  } else if (discountCode === "SALE50") { // "SALE50"
     sumProductPrice = sumProductPrice * ((100-50)/100); // ลด 50% จากมูลค่ารวมของสินค้าในตะกร้า
   }
   else {
